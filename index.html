@@ -4,83 +4,29 @@
 <HEAD>
   <!-- make heading draggable!-->
   <TITLE>Span Crazy | Homepage</TITLE>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
   <link type="text/css" rel="stylesheet" href="./stylesheet.css"/>
 </HEAD>
 <body>
   <div style="padding:30px; overflow:auto; width=100%; height100; position:relative">
-    <div id="header">
-        <h1 id="header_top"> 
-          |SPAN CRAZY|
-        </h1>
-        <p id="header_bottom">WHEN YOU HAVE BEEN CODING TOO LONG</p>
-     </div>
+    <center>
+      <object type="text/html" width="405px" height="160px" 
+        style="overflow:hidden; width:405px; height:160px;" data="header.html">
+      </object>
+    </center>
 
-    <script>
-    var backImage = document.getElementById("headingImage");
-    var backImageContext = backImage.getContext("2d");
-    var img = document.getElementById("headingBG");
-    backImageContext.drawImage(img, 0, 0, 600, 200);
+    <div id = "bg">
 
-    // SPAN CRAZY
-    backImageContext.font="50px Georgia";
-    backImageContext.textAlign="center";
-    backImageContext.fillStyle="#FFFFFF";
-    backImageContext.fillText("| SPAN CRAZY |", 300, 100);
+      <iframe src="./menu.html" name="menu"
+        width=100% scrolling="false" height="30px"
+        marginwidth=5px marginheight=0px frameborder="0px">
+      </iframe>
 
-    var bgIMG = document.getElementById("headingBG");
-    var context bgIMG.getContext("2d");
-
-    // SLOGAN
-    backImageContext.font="30px Georgia";
-    backImageContext.textAlign="center";
-    backImageContext.fillStyle="#FFFFFF";
-    backImageContext.fillText("WHEN YOU HAVE BEEN CODING TOO LONG");
-  </script>
-
-  <div id = "bg">
-
-    <span>
-      <TABLE>
-        <TD> <a href="./resume.html" target="_blank"> Resume </a></TD>
-        <TD> <a href="https://github.com/ldayananda/people-quotes-app" target="_blank"> Projects </a></TD>
-        <TD><a href="./learning.html" target="_blank"> Learning </a></TD>
-        <TD> <a href="" target="_blank"> Blog </a></TD>
-      </TABLE>
-    </span> 
-
-
-    <div id="welcome">
-      Welcome to my website. Take a look around, I'm sure you'll find something that interests you!
+      <!-- this is a div/span for blog posts-->
+      <div id="blog_area">
+          <p>Welcome to Span Crazy! This page is awaiting content but check out the other pages!</p>
+      </div>
     </div>
-
-    <!-- this is a div/span for blog posts-->
-    <div id="blog_area">
-        <p>I just wanna know what this will look like</p>
-    </div>
-
-    <!-- the sidebar, should be placed next to the blog area -->
-    <div id="sidebar">
-      <!-- About me section -->
-        <div id="about_me">
-          <h3> About Me </h3> 
-	        <p>
-	          I am Sri Lankan by nationality but I have lived all my life in Zambia. 
-            My first time coming to Boston was when I moved into Northeastern University. 
-            Two years later and I'm still happy as can be studying Computer Science and exploring new ways to solve problems.
-          </p>
-        </div>
-          
-      <!-- Popular Posts -->
-        <div id="popular_posts">
-          <h3> Popular Posts </h3> 
-        </div>
-          
-      <!-- Links to other sites -->
-        <div id="links"> 
-          <h3> Links </h3>
-        </div>
-    </div>
-  </div>
   </div>
 </body>
 </html>
