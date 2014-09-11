@@ -35,6 +35,10 @@ h3 {
   width: 100%;
   text-align:"center"
 }
+#header_top  a:link { color: navy; }
+#header_top  a:visited { color: navy; }
+#header_top  a:hover { color: navy; }
+#header_top  a:active { color: navy; }
 
 #header_bottom {
   font-family: "Geogia";
