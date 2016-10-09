@@ -1,6 +1,10 @@
 a:link {color: white;}
 a:visited {color: grey;}
 
+iframe {
+  overflow-y: hidden;
+}
+
 span {
   color: #C0C0C0;
   font-weight: bold;
@@ -54,6 +58,10 @@ h3 {
   height: 100%;
 }
 
+body {
+  background-color: #FFFFFF;
+}
+
 #blog_area {
   font-family: garamond; 
   text-align: left; 
@@ -62,7 +70,7 @@ h3 {
   padding-left: 70px; 
   padding-top: 30px; 
   height: 100%;
-  background-color: #C0C0C0;
+  background-color: #EEEEEE;
 }
   'overflow: auto;
 '
