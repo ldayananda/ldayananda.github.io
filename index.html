@@ -9,40 +9,43 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </HEAD>
-<body style="height:100%">
-  <div style="padding:30px; overflow:auto; width=100%; height100; position:relative">
+
+<body>
+  <div class="col-md-12">
     <center>
       <object type="text/html" width="405px" height="160px" 
         style="overflow:hidden; width:405px; height:160px;" data="./css/header.html">
       </object>
     </center>
 
-    <div id="bg">
+    <div id="bg" class="col-md-12">
 
-      <iframe src="./css/menu.html" name="menu"
-        width=100% scrolling="no" height="30px"
-        marginwidth=5px marginheight=0px frameborder="0px">
+      <iframe src="./css/menu.html" name="menu" class="col-md-12"
+        scrolling="no" width="100%" height="30px" marginheight=0px frameborder="0px">
       </iframe>
 
       <!-- this is a div/span for blog posts-->
-      <div id="blog_area" style="height:100%">
-          <p>I am currently searching for my 3rd co-oppurtunity experience. Please take a look at some of the other pages on the site to get to know me!</p>
+      <div id="blog_area" class="col-md-12">
 
-        <iframe src="./about.html" name="about_section" 
-          width="100%" height="100%" scrolling="no" frameborder="0px" 
-          marginheight=0px marginwidth=0px seamless="seamless" padding="0px">
-        </iframe>
-        <iframe src="./resume.html" name="resume_section"
-          width="100%" height="100%" scrolling="no" frameborder="0px" 
-          marginheight=0px marginwidth=0px seamless="seamless" padding="0px">
-        </iframe>
-        <iframe src="./learning.html" name="learning_section"
-          width="100%" height="100%" scrolling="no" frameborder="0px" 
-          marginheight=0px marginwidth=0px seamless="seamless" padding="0px">
-        </iframe>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe src="./about.html" name="about_section" scrolling="no">
+          </iframe>
+        </div>
+
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe src="./resume.html" name="resume_section" scrolling="no">
+          </iframe>
+        </div>
+
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe src="./learning.html" name="learning_section" scrolling="no">
+          </iframe>
+        </div>
+
       </div>
     </div>
   </div>
+
 </body>
 </html>
 
