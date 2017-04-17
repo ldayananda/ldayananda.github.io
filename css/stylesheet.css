@@ -1,5 +1,5 @@
-a:link {color: white;}
-a:visited {color: grey;}
+a.menu:link {color: white;}
+a.menu:visited {color: grey;}
 
 iframe {
   overflow-y: hidden;
@@ -12,7 +12,7 @@ span {
   text-align: center;
 }
 
-table {
+table.menu {
   background-color: navy;
   border-color : grey;
   padding: 5px;
@@ -20,7 +20,7 @@ table {
   color: white;
 }
 
-td {
+td.menu {
   color: white;
 }
 
@@ -53,16 +53,11 @@ h3 {
   text-align:"center";
 }
 
-#bg {
-  width: 100%;
-  height: 100%;
-}
-
 body {
   background-color: #FFFFFF;
 }
 
-#blog_area {
+.blog-area {
   font-family: garamond; 
   text-align: left; 
   font-size: 18px; 
@@ -71,9 +66,5 @@ body {
   padding-top: 30px; 
   height: 100%;
   background-color: #EEEEEE;
-}
-  'overflow: auto;
-'
-#about_me {
-  padding: 10px;
+  overflow: auto;
 }
